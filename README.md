@@ -8,7 +8,7 @@
 </p>
 
 <p>
-💥 Pull request message</br>
+💥 Pull requests message</br>
 	Yeseul: [1021] 어쩌구저쩌구, [5346] 랄랄</br>
 	Soyeon: [Hash] 전화번호 목록</br>
 </p>
