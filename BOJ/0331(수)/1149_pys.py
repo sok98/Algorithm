@@ -1,8 +1,9 @@
 import sys
 n = int(sys.stdin.readline())
+arr=[]
 
 for i in range(n):
-    coin.append(int(sys.stdin.readline()))
+    arr.append(int(sys.stdin.readline()))
 
 table = [[0 for _ in range(3)] for _ in range(n)]
 for i in range(n):
