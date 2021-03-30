@@ -9,4 +9,6 @@ for i in range(c):
     else:
         stk.pop()
 
-print(sum(stk))
+for i in stk:
+    sum+=i
+print(i)
