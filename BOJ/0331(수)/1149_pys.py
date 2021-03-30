@@ -1,14 +1,14 @@
 import sys
-n, k = map(int, sys.stdin.readline().split())
-coin = []
-count=0
+n = int(sys.stdin.readline())
 
 for i in range(n):
     coin.append(int(sys.stdin.readline()))
 
-
-for i in reversed(range(n)):
-    count+=(k//coin[i])
-    k=k%coin[i]
-
-print(count)
+table = [[0 for _ in range(3)] for _ in range(n)]
+for i in range(n):
+    for j in range(3):
+        if i == 0:
+            table[i][j] = arr[i][j]
+        else:
+            table[i][j] = min(table[i-1][(j+1)%3], table[i-1][(j+2)%3]) + arr[i][j]
+print(min(table[-1]))
