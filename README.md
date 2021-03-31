@@ -18,4 +18,9 @@
 <b>03/31 (수)</b> : 백준 - [1149] RGB 거리 / [1932] 정수 삼각형 / [11047] 동전 0</br>
 <b>04/01 (목)</b> : 백준 - [9012] 괄호 / [18258] 큐 2</br>
 <b>04/02 (금)</b> : 백준 - [1260] DFS와 BFS / [2108] 통계학</br>
-<b>[보너스 문제]</b> : 프로그래머스 - [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839?language=python3) / [스타트와 링크](https://www.acmicpc.net/problem/14889) / [부분수열의 합](https://www.acmicpc.net/problem/1182)
+<h2>[보너스 문제] </h2>  
+<b>프로그래머스</b> 
+
+[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839?language=python3) /
+[스타트와 링크](https://www.acmicpc.net/problem/14889) /
+[부분수열의 합](https://www.acmicpc.net/problem/1182)
