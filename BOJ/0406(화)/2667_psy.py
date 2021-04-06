@@ -4,7 +4,7 @@ def dfs(x, y):
     global visited
     global base
     global amount
-    global N
+    global n
 
     if not base[x][y]: return False
     # 일단 방문한 집은 방문했다고 표시한다.
