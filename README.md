@@ -43,5 +43,3 @@ Soyeon: [Hash] 전화번호 목록
 **04/15 (목)** : 백준 - [11866] 요세푸스 문제 0 / [1992] 쿼드트리
 
 **04/19 (월)** : 백준 - [1753] 최단경로
-
-https://programmers.co.kr/learn/courses/30/lessons/43165
