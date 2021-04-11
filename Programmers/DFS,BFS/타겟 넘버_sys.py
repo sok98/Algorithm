@@ -11,6 +11,3 @@ def solution(numbers, target):
             sum[i].append(k - numbers[i])
 
     return sum[len(numbers)-1].count(target)
-
-
-print(solution([1, 1, 1, 1, 1], 3))
