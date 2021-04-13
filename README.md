@@ -37,7 +37,7 @@ Soyeon: [Hash] 전화번호 목록
 **04/13 (화)**  : 백준 - [2579] 계단 오르기 / [11054] 가장 긴 바이토닉 부분 수열
 | 날짜  | 문제 1 | 문제 2 |
 | :---: | :--: | :---: |
-| ~~04/14 (수)~~ |  ~~[[1002] 터렛](https://www.acmicpc.net/problem/1002) | [[2798] 블랙잭](https://www.acmicpc.net/problem/2798) |~~
+| 04/14 (수) |  [[1002] 터렛](https://www.acmicpc.net/problem/1002) | [[2798] 블랙잭](https://www.acmicpc.net/problem/2798) |
 | 04/15 (목) |  [[2231] 분해합](https://www.acmicpc.net/problem/2231) | [[1541] 잃어버린 괄호](https://www.acmicpc.net/problem/1541) |
 | 04/16 (금) |  [[11866] 요세푸스 문제 0](https://www.acmicpc.net/problem/11866) | [[1992] 블랙잭](https://www.acmicpc.net/problem/1992) |
 
