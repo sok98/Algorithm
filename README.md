@@ -18,7 +18,7 @@ Soyeon: [Hash] 전화번호 목록
 
 ## 📚 문제
 
-| 날짜 | 문제 1 | 문제 2 | 문제 3 |
+| 리뷰날짜 | 문제 1 | 문제 2 | 문제 3 |
 | :---: | --- | --- | --- |
 | 03/30 (화) |  [1149] RGB 거리 | [1932] 정수 삼각형 | [11047] 동전 0 |
 | 03/31 (수) |  [9012] 괄호 | [18258] 큐 2 ||
@@ -30,6 +30,6 @@ Soyeon: [Hash] 전화번호 목록
 | 04/13 (화) |  [2579] 계단 오르기 | [11054] 가장 긴 바이토닉 부분 수열 ||
 | 04/14 (수) |  [[1002] 터렛](https://www.acmicpc.net/problem/1002) | [[2798] 블랙잭](https://www.acmicpc.net/problem/2798) ||
 ||---시험준비---||
-| 04/15 (목) |  [[2231] 분해합](https://www.acmicpc.net/problem/2231) | [[1541] 잃어버린 괄호](https://www.acmicpc.net/problem/1541) ||
-| 04/16 (금) |  [[11866] 요세푸스 문제 0](https://www.acmicpc.net/problem/11866) | [[1992] 블랙잭](https://www.acmicpc.net/problem/1992) ||
-| 04/20 (화) |  [1753] 최단경로 |||
+| 04/27 (화) |  [[2231] 분해합](https://www.acmicpc.net/problem/2231) | [[1541] 잃어버린 괄호](https://www.acmicpc.net/problem/1541) ||
+| 04/28 (수) |  [[11866] 요세푸스 문제 0](https://www.acmicpc.net/problem/11866) | [[1992] 블랙잭](https://www.acmicpc.net/problem/1992) ||
+| 04/29 (목) |  [1753] 최단경로 |||
