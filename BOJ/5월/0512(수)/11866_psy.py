@@ -1,5 +1,5 @@
 # [silver-4] 11866 요세푸스 문제0
-# algorithm 
+# algorithm 큐
 # 메모리: 32692KB
 # 시간: 100ms
 
@@ -9,7 +9,7 @@ from collections import deque
 
 N, K = map( int, input().split())
 
-def yosefus(N, K):
+def josephus(N, K):
     yList = deque(range(1, N+1))
     result = []
     i=0
@@ -21,4 +21,4 @@ def yosefus(N, K):
     strResult=str(result)
     print("<"+strResult[1:len(strResult)-1]+">")
 
-yosefus(N, K)
+josephus(N, K)
