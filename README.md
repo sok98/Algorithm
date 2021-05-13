@@ -31,7 +31,7 @@ Soyeon: [Hash] 전화번호 목록
 | 04/14 (수) |  [[1002] 터렛](https://www.acmicpc.net/problem/1002) | [[2798] 블랙잭](https://www.acmicpc.net/problem/2798) ||
 ||---시험준비---||
 | ~~05/11 (화)~~ |  ~~[[2231] 분해합](https://www.acmicpc.net/problem/2231)~~ | ~~[[1541] 잃어버린 괄호](https://www.acmicpc.net/problem/1541)~~ ||
-| 05/12 (수) |  [[11866] 요세푸스 문제 0](https://www.acmicpc.net/problem/11866) | [[1992] 쿼드트리](https://www.acmicpc.net/problem/1992) ||
+| 05/12 (수) |  ~~[[11866] 요세푸스 문제 0](https://www.acmicpc.net/problem/11866)~~ | ~~[[1992] 쿼드트리](https://www.acmicpc.net/problem/1992)~~ ||
 | 05/13 (목) |  [[1753] 최단경로](https://www.acmicpc.net/problem/1753) |||
 | 05/14 (금) |  [[1463] 1로 만들기](https://www.acmicpc.net/problem/1463) | [[9095] 1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | [[1003] 피보나치 함수](https://www.acmicpc.net/problem/1003) |
 | 05/17 (월) |  [[11399] ATM](https://www.acmicpc.net/problem/11399) | [[11726] 2xn 타일링](https://www.acmicpc.net/problem/11726)  | [[2606] 바이러스](https://www.acmicpc.net/problem/2606)  |
