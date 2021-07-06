@@ -10,7 +10,7 @@ def solution(N, arr):
     for i in arr:
         if i == 'L' and y>1 :
             y-=1
-        elif i == 'R' and y<N:
+        elif i == 'R' and y<N: 
             y+=1
         elif i == 'D' and x<N:
             x+=1
