@@ -1,8 +1,8 @@
 import sys
-input = sys.stdin.readline
+#input = sys.stdin
 
 N, M = map(int, input().split())
-graph = [ list(map(int, input().split())) for _ in range(N)]
+graph = [ list(map(int, input())) for _ in range(N)]
 
 print("graph =", graph)
 
