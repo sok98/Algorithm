@@ -1,5 +1,5 @@
 # Algorithm Study
-월~목 아침 9시
+매일 아침 8시
 
 ***
 
@@ -17,6 +17,7 @@ Soyeon: [Hash] 전화번호 목록
 ***
 
 ## 📚 문제
+### 🐱‍🐉[문제 스프레드 시트](https://docs.google.com/spreadsheets/d/1qoWdvoblSEbjb1CFT2DrCeq2NUtsRKvMvJZt2Z_AGo8/edit#gid=0) 🐱‍🏍
 
 | 리뷰날짜 | 문제 1 | 문제 2 | 문제 3 |
 | :---: | --- | --- | --- |
