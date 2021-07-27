@@ -1,4 +1,14 @@
 def solution(number, k):
+
+    stack = [number[0]]
+    for n in number[1:] :
+        while stack and k > 0 and stack[-1] < n : 
+            stack.pop()
+            k -= 1
+        stack.append(n)
+    return ''.join(stack[:len(number)-k])
+
+
     # answer = ''
 
     # # max 함수
@@ -19,15 +29,6 @@ def solution(number, k):
     # answer += str(max(number[start:]))
 
     # return answer
-
-
-    stack = [number[0]]
-    for n in number[1:] :
-        while stack and k > 0 and stack[-1] < n : 
-            stack.pop()
-            k -= 1
-        stack.append(n)
-    return ''.join(stack[:len(number)-k])
 
 
 
