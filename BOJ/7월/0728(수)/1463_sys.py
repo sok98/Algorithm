@@ -12,7 +12,7 @@ def calcul(num, n):
             calcul(num//3, num)
         if num%2 == 0:
             calcul(num//2, num)
-        if num > 1:
+        elif num > 1:
             calcul(num-1, num)
         
 
@@ -20,7 +20,7 @@ if n%3 == 0:
     calcul(n//3, n)
 if n%2 == 0:
     calcul(n//2, n)
-if n > 1:
+elif n > 1:
     calcul(n-1, n)
 
 print(count[1])
