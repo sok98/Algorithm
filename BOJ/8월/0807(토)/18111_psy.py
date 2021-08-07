@@ -1,13 +1,12 @@
 # [silver-3] 18111 마인크래프트 (시간초과)
 # algorithm 구현, 시뮬레이션
-# 메모리: 	KB
-# 시간:     ms
+# 메모리: 	127440 KB
+# 시간:     552 ms
 
 import sys
 input = sys.stdin.readline
 
 N, M, B = map(int, input().split())
-bDic = {}
 minTime = 1e9
 resultHeight  = 0
 
@@ -27,6 +26,8 @@ for i in range(minNum,maxNum+1):
             elif height<0:
                 #2번 작업 수
                 plusCount -= height
+    if minusCount+B < plusCount:
+        break
     if minusCount+B>=plusCount:
         time = minusCount*2 + plusCount
         #계속 비교 => 최솟값
