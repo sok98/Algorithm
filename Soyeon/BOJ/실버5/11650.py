@@ -1,7 +1,10 @@
 # [silver-5] 11650 죄표 정렬하기
 # algorithm  정렬
 # 메모리:   51272 KB
-# 시간:     4360 ms
+# 시간:     396 ms
+
+import sys
+input = sys.stdin.readline
 
 N = int(input())
 result = []
