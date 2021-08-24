@@ -4,16 +4,12 @@
 from collections import defaultdict
 
 def solution(table, languages, preference):
-    answer = ''
-    skills = {}
     groups = defaultdict(int)
     
     for t in table:
         temp = list(map(str, t.split()))
         tl = temp[1:]
         tl.reverse()
-        skills[temp[0]] = tl
-        
         for i in range(len(languages)):
             if languages[i] in tl:
                 groups[temp[0]] += (tl.index(languages[i])+1)*preference[i]
