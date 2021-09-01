@@ -18,12 +18,13 @@ def dijkstra(n):
     point[n] = 0
 
     while queue:
-        start, end = heapq.heappop(queue)
-        if point[end] < start:
+        c, now = heapq.heappop(queue)   # c: 이전 노드까지의 가중치 합 / now: 현재 노드
+        # 현재 노드까지의 가중치 합이 이전 노드까지의 가중치 합보다 작을 때 할 필요 없음
+        if point[now] < c:  
             continue
 
-        for node in graph[end]:
-            cost = start + node[1]
+        for node in graph[now]:
+            cost = c + node[1]
 
             if cost < point[node[0]]:
                 point[node[0]] = cost
