@@ -9,7 +9,6 @@ input = sys.stdin.readline
 
 tree = []
 result = []
-count = 0
 N = int(input())
 
 for _ in range(N):
@@ -20,12 +19,8 @@ for _ in range(N):
             result.append(0)
         else:
             result.append(hp.heappop(tree))
-        count += 1
     else: # 자연수면 heap에 추가
         hp.heappush(tree, x)
 
-for i in range(count):
-    try:
-        print(result[i])
-    except IndexError:
-        print(0)   
+for r in result:
+    print(r)
