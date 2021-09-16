@@ -10,13 +10,13 @@ def solution(enter, leave):
     enter = deque(enter)
     leave = deque(leave)
 
-    for i in enter:
-        for r in room:
+    for e in enter:
+        for r in room: # 대기실에 있는 사람들의 만난 횟수 +1
             answer[r-1] += 1
-        answer[i-1] += len(room)
-        room.append(i)
+        answer[e-1] += len(room) # 본인을 제외한 현재 대기실의 인원 만큼 만남
+        room.append(e) # 대기실 입장
 
-        while leave and leave[0] in room:
+        while leave and leave[0] in room: # leave에 첫번째 사람을 room에서 제거 
             room.remove(leave.popleft())
 
     return answer
