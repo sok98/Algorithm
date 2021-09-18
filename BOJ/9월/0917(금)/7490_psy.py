@@ -7,15 +7,14 @@ input = sys.stdin.readline
 
 T = int(input())
 result = []
+operator = [' ', '+', '-']
 
-def operator(now,ans):
+def recursion(now,ans):
     if now == n+1:
         calc(ans)
         return
-
-    operator(now+1,ans+' '+str(now))
-    operator(now+1,ans+'+'+str(now))
-    operator(now+1,ans+'-'+str(now))
+    for o in operator:
+      recursion(now+1,ans+o+str(now))
 
 def calc(ans):
     tmp = ans.replace(' ','')
@@ -24,7 +23,7 @@ def calc(ans):
 
 for _ in range(T):
   n = int(input())
-  operator(2,'1') # N은 3부터
+  recursion(2,'1') # N은 3부터
   result.append(' ')
 
 print(*result, sep='\n')
