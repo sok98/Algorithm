@@ -10,7 +10,7 @@ for i in range(T):
 
 def factorial(num):
     if num <2:
-        return 13
+        return 1
 
     if "num" in dic:
         return dic[num]
