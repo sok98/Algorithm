@@ -1,23 +1,20 @@
 import sys
 input = sys.stdin.readline
 
-N = int(input())
-coin = list(map(int, input().split()))
-coin.sort(reverse=True)
-tSum = int(input())
-count = 10e9
+N, M = map(int, input().split())
+res = [0]*(M)
+count = 0
 
-def dfs(L, total):
+def dfs(L):
     global count
 
-    if total == tSum:
-        if L<count:
-            count = L
-    elif total > tSum or L >= count:
-        return
+    if L == M:
+        print(*res)
+        count+=1
     else:
-        for i in range(len(coin)):
-            dfs(L+1, total+coin[i])
+        for i in range(1, N+1):
+            res[L]=i
+            dfs(L+1)
 
-dfs(0, 0)
+dfs(0)
 print(count)
