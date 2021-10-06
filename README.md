@@ -1,7 +1,7 @@
 # Algorithm Study
 매일 아침 8시
 
-| [<img src="https://avatars.githubusercontent.com/paksuua" width="100">](https://github.com/paksuua)| [<img src="https://avatars.githubusercontent.com/RoadtoS7" width="100">](https://github.com/RoadtoS7) | [<img src="https://avatars.githubusercontent.com/sok98" width="100">](https://github.com/sok98) |
+| [<img src="https://avatars.githubusercontent.com/paksuua" width="100">](https://github.com/paksuua)| [<img src="https://avatars.githubusercontent.com/sok98" width="100">](https://github.com/sok98) | [<img src="https://avatars.githubusercontent.com/RoadtoS7" width="100">](https://github.com/RoadtoS7) |
 | :-----------------------------------: | :---------------------------------------: | :-------------------------------------: |
 | 박소연 | 서예슬 | 김수현 |
 
